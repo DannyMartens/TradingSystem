@@ -1,0 +1,4 @@
+requests
+websockets
+websocket as bitmex-ws
+bitmex-ws
