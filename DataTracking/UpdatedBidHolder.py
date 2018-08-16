@@ -9,7 +9,7 @@ class UpdatedBid:
         self.fox_ask = fox_ask
         self.fox_bid = fox_bid
         self.fox_update = fox_update
-        self.stop_loss_buy = (self.fox.bid - 15)
+        self.stop_loss_buy = (self.fox_bid - 15)
         self.stop_loss_short = (self.fox_ask + 15)
         self.token = 'NONE'
         self.low_bid = 0
